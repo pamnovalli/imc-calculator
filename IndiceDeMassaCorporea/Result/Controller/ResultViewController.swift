@@ -22,6 +22,7 @@ class ResultViewController: UIViewController {
         viewModel.imc = imc
         lblResult.text = viewModel.imcResult
         lblImc.text = viewModel.imcFormatString
+
     }
     
     

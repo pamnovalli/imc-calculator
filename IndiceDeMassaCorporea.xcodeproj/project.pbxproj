@@ -10,14 +10,12 @@
 		B3512A9A23DE2434003AA307 /* ResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3512A9923DE2434003AA307 /* ResultViewModel.swift */; };
 		B3512AB323DE6653003AA307 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3512AB123DE6653003AA307 /* HomeViewController.swift */; };
 		B3512AB423DE6653003AA307 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3512AB223DE6653003AA307 /* HomeViewController.xib */; };
-		B3512AB723DE6B79003AA307 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3512AB623DE6B79003AA307 /* HomeViewModel.swift */; };
 		B3512ABA23DE6E8E003AA307 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3512AB923DE6E8E003AA307 /* HomeRouter.swift */; };
 		B3512ABC23DE7502003AA307 /* ResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3512ABB23DE7502003AA307 /* ResultViewController.xib */; };
+		B38D7B5A23DF8D2B00EED2BE /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38D7B5923DF8D2B00EED2BE /* HomeViewModel.swift */; };
 		E13B8A912294886700F91ADD /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16D0EB122930BA4001EE579 /* ResultViewController.swift */; };
 		E16D0E7E2292E198001EE579 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16D0E7D2292E198001EE579 /* AppDelegate.swift */; };
-		E16D0E832292E198001EE579 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E16D0E812292E198001EE579 /* Main.storyboard */; };
 		E16D0E852292E199001EE579 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E16D0E842292E199001EE579 /* Assets.xcassets */; };
-		E16D0E882292E199001EE579 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E16D0E862292E199001EE579 /* LaunchScreen.storyboard */; };
 		E16D0E932292E199001EE579 /* IndiceDeMassaCorporeaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16D0E922292E199001EE579 /* IndiceDeMassaCorporeaTests.swift */; };
 		E16D0E9E2292E199001EE579 /* IndiceDeMassaCorporeaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16D0E9D2292E199001EE579 /* IndiceDeMassaCorporeaUITests.swift */; };
 /* End PBXBuildFile section */
@@ -43,14 +41,12 @@
 		B3512A9923DE2434003AA307 /* ResultViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewModel.swift; sourceTree = "<group>"; };
 		B3512AB123DE6653003AA307 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B3512AB223DE6653003AA307 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
-		B3512AB623DE6B79003AA307 /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		B3512AB923DE6E8E003AA307 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
 		B3512ABB23DE7502003AA307 /* ResultViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultViewController.xib; sourceTree = "<group>"; };
+		B38D7B5923DF8D2B00EED2BE /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewModel.swift; path = ../../../../../../.Trash/Home1/ViewModel/HomeViewModel.swift; sourceTree = "<group>"; };
 		E16D0E7A2292E198001EE579 /* IndiceDeMassaCorporea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IndiceDeMassaCorporea.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E16D0E7D2292E198001EE579 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E16D0E822292E198001EE579 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E16D0E842292E199001EE579 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E16D0E872292E199001EE579 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E16D0E892292E199001EE579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E16D0E8E2292E199001EE579 /* IndiceDeMassaCorporeaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IndiceDeMassaCorporeaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E16D0E922292E199001EE579 /* IndiceDeMassaCorporeaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndiceDeMassaCorporeaTests.swift; sourceTree = "<group>"; };
@@ -142,7 +138,7 @@
 		B3512AB523DE6B79003AA307 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				B3512AB623DE6B79003AA307 /* HomeViewModel.swift */,
+				B38D7B5923DF8D2B00EED2BE /* HomeViewModel.swift */,
 			);
 			name = ViewModel;
 			path = IndiceDeMassaCorporea/Home1/ViewModel;
@@ -154,14 +150,6 @@
 				B3512AB923DE6E8E003AA307 /* HomeRouter.swift */,
 			);
 			path = Router;
-			sourceTree = "<group>";
-		};
-		B36E005323D6383F00773860 /* App Delegate */ = {
-			isa = PBXGroup;
-			children = (
-				E16D0E7D2292E198001EE579 /* AppDelegate.swift */,
-			);
-			path = "App Delegate";
 			sourceTree = "<group>";
 		};
 		B41169CD9AC0A08CA38EC99A /* Frameworks */ = {
@@ -197,11 +185,9 @@
 			children = (
 				B3512AAF23DE6626003AA307 /* Home */,
 				B3512A9F23DE388F003AA307 /* Result */,
-				E16D0E862292E199001EE579 /* LaunchScreen.storyboard */,
-				E16D0E812292E198001EE579 /* Main.storyboard */,
-				E16D0E892292E199001EE579 /* Info.plist */,
 				B3512A9B23DE2F20003AA307 /* Resources */,
-				B36E005323D6383F00773860 /* App Delegate */,
+				E16D0E892292E199001EE579 /* Info.plist */,
+				E16D0E7D2292E198001EE579 /* AppDelegate.swift */,
 			);
 			path = IndiceDeMassaCorporea;
 			sourceTree = "<group>";
@@ -332,11 +318,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E16D0E882292E199001EE579 /* LaunchScreen.storyboard in Resources */,
 				B3512ABC23DE7502003AA307 /* ResultViewController.xib in Resources */,
 				B3512AB423DE6653003AA307 /* HomeViewController.xib in Resources */,
 				E16D0E852292E199001EE579 /* Assets.xcassets in Resources */,
-				E16D0E832292E198001EE579 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,8 +426,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E16D0E7E2292E198001EE579 /* AppDelegate.swift in Sources */,
+				B38D7B5A23DF8D2B00EED2BE /* HomeViewModel.swift in Sources */,
 				B3512A9A23DE2434003AA307 /* ResultViewModel.swift in Sources */,
-				B3512AB723DE6B79003AA307 /* HomeViewModel.swift in Sources */,
 				B3512ABA23DE6E8E003AA307 /* HomeRouter.swift in Sources */,
 				E13B8A912294886700F91ADD /* ResultViewController.swift in Sources */,
 				B3512AB323DE6653003AA307 /* HomeViewController.swift in Sources */,
@@ -480,25 +464,6 @@
 			targetProxy = E16D0E9A2292E199001EE579 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		E16D0E812292E198001EE579 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E16D0E822292E198001EE579 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E16D0E862292E199001EE579 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E16D0E872292E199001EE579 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E16D0EA02292E199001EE579 /* Debug */ = {
