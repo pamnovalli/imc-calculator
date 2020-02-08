@@ -21,9 +21,6 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imc" translatesAutoresizingMaskIntoConstraints="NO" id="Q1L-EH-zcy">
-                    <rect key="frame" x="87" y="132" width="232" height="170"/>
-                </imageView>
                 <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Peso" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QP9-FM-6Ui">
                     <rect key="frame" x="186" y="426" width="0.0" height="0.0"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -37,7 +34,7 @@
                     <textInputTraits key="textInputTraits"/>
                 </textField>
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="GvS-aU-0XX">
-                    <rect key="frame" x="57" y="340" width="300" height="183"/>
+                    <rect key="frame" x="57" y="263" width="300" height="183"/>
                     <subviews>
                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Peso" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jbT-fT-4Mo">
                             <rect key="frame" x="0.0" y="0.0" width="300" height="45"/>
@@ -74,17 +71,11 @@
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="GvS-aU-0XX" secondAttribute="trailing" constant="57" id="73d-jc-KKt"/>
-                <constraint firstItem="GvS-aU-0XX" firstAttribute="top" secondItem="Q1L-EH-zcy" secondAttribute="bottom" constant="38" id="B8c-L9-x5i"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Q1L-EH-zcy" secondAttribute="trailing" constant="95" id="cer-v5-S6B"/>
-                <constraint firstItem="Q1L-EH-zcy" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="87" id="kvx-V3-AUW"/>
-                <constraint firstItem="Q1L-EH-zcy" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="88" id="lQk-4w-Pke"/>
+                <constraint firstItem="GvS-aU-0XX" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="219" id="BFZ-bv-7nB"/>
                 <constraint firstItem="GvS-aU-0XX" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="57" id="r4k-e9-91h"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <point key="canvasLocation" x="-714" y="136"/>
         </view>
     </objects>
-    <resources>
-        <image name="imc" width="170" height="170"/>
-    </resources>
 </document>

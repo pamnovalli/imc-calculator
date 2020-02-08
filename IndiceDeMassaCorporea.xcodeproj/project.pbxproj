@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B350120A23EE47CB0092F6E8 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B350120923EE47CB0092F6E8 /* HomeViewModel.swift */; };
 		B3512A9A23DE2434003AA307 /* ResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3512A9923DE2434003AA307 /* ResultViewModel.swift */; };
 		B3512AB323DE6653003AA307 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3512AB123DE6653003AA307 /* HomeViewController.swift */; };
 		B3512AB423DE6653003AA307 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3512AB223DE6653003AA307 /* HomeViewController.xib */; };
 		B3512ABA23DE6E8E003AA307 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3512AB923DE6E8E003AA307 /* HomeRouter.swift */; };
 		B3512ABC23DE7502003AA307 /* ResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3512ABB23DE7502003AA307 /* ResultViewController.xib */; };
-		B38D7B5A23DF8D2B00EED2BE /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38D7B5923DF8D2B00EED2BE /* HomeViewModel.swift */; };
 		E13B8A912294886700F91ADD /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16D0EB122930BA4001EE579 /* ResultViewController.swift */; };
 		E16D0E7E2292E198001EE579 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16D0E7D2292E198001EE579 /* AppDelegate.swift */; };
 		E16D0E852292E199001EE579 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E16D0E842292E199001EE579 /* Assets.xcassets */; };
@@ -38,12 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B350120923EE47CB0092F6E8 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		B3512A9923DE2434003AA307 /* ResultViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewModel.swift; sourceTree = "<group>"; };
 		B3512AB123DE6653003AA307 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B3512AB223DE6653003AA307 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		B3512AB923DE6E8E003AA307 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
 		B3512ABB23DE7502003AA307 /* ResultViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultViewController.xib; sourceTree = "<group>"; };
-		B38D7B5923DF8D2B00EED2BE /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewModel.swift; path = ../../../../../../.Trash/Home1/ViewModel/HomeViewModel.swift; sourceTree = "<group>"; };
 		E16D0E7A2292E198001EE579 /* IndiceDeMassaCorporea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IndiceDeMassaCorporea.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E16D0E7D2292E198001EE579 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E16D0E842292E199001EE579 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -82,6 +82,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B350120823EE47B70092F6E8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B350120923EE47CB0092F6E8 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		B3512A9B23DE2F20003AA307 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,8 +127,8 @@
 		B3512AAF23DE6626003AA307 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				B350120823EE47B70092F6E8 /* ViewModel */,
 				B3512AB823DE6E7A003AA307 /* Router */,
-				B3512AB523DE6B79003AA307 /* ViewModel */,
 				B3512AB023DE6630003AA307 /* Controller */,
 			);
 			path = Home;
@@ -134,15 +142,6 @@
 			);
 			path = Controller;
 			sourceTree = "<group>";
-		};
-		B3512AB523DE6B79003AA307 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				B38D7B5923DF8D2B00EED2BE /* HomeViewModel.swift */,
-			);
-			name = ViewModel;
-			path = IndiceDeMassaCorporea/Home1/ViewModel;
-			sourceTree = SOURCE_ROOT;
 		};
 		B3512AB823DE6E7A003AA307 /* Router */ = {
 			isa = PBXGroup;
@@ -426,7 +425,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E16D0E7E2292E198001EE579 /* AppDelegate.swift in Sources */,
-				B38D7B5A23DF8D2B00EED2BE /* HomeViewModel.swift in Sources */,
+				B350120A23EE47CB0092F6E8 /* HomeViewModel.swift in Sources */,
 				B3512A9A23DE2434003AA307 /* ResultViewModel.swift in Sources */,
 				B3512ABA23DE6E8E003AA307 /* HomeRouter.swift in Sources */,
 				E13B8A912294886700F91ADD /* ResultViewController.swift in Sources */,

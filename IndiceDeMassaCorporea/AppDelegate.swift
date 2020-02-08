@@ -12,13 +12,14 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
    
-
     
      var mainNavigationController: UINavigationController = UINavigationController(rootViewController: HomeViewController(nibName: "HomeViewController", bundle: Bundle.main))
-     
+     let navigationBarAppearence = UINavigationBar.appearance()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        UINavigationBar.appearance().barTintColor = UIColor .systemTeal
+        navigationBarAppearence.tintColor = UIColor.white
+        navigationBarAppearence.barTintColor = UIColor.systemTeal
+        navigationBarAppearence.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.rootViewController = mainNavigationController
         window?.makeKeyAndVisible()

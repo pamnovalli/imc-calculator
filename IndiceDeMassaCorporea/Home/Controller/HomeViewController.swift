@@ -21,6 +21,7 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
         btnCalculate.layer.cornerRadius = 5
         router = HomeRouter(viewController: self)
+        self.navigationItem.title = "Indice de Massa Corporea"
     }
     
 
